@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+@import "reset";
+body{
+    background-color: black;
+    .poster{
+        margin-top:100px;
+        margin-left:584px;
+        width: 723px;
+        height: 960px;
+        background-color: white;
+        padding-top:7px;
+        .inner{
+            width: 97%;
+            height: 900px;
+            margin-left: 1%;
+            background-color: rgb(32,122,128);
+            .inner_header{
+                width: 100%;
+                height:20px;
+                background-color: rgb(144,189,192);
+            }
+            .circle{
+                background-color: rgb(202,225,49);
+                position: absolute;
+                top: 150px;
+                left: 648px;
+                width: 430px;
+                height: 430px;
+                border-radius: 215px;
+                border: 14px solid rgb(213,231,90);
+                z-index: 10;
+            }
+            .three{
+                position: absolute;
+                top: 174px;
+                left: 880px;
+                color:white;
+                font-size: 450px;
+                font-family: 'Homemade Apple', sans-serif;    
+                z-index:20;        
+            }
+            h3{
+                position: absolute;
+                font-size:50px;
+                z-index:30;
+                left: 840px;
+                top: 232px;
+                font-family: 'Nova Round', cursive;
+                text-transform: uppercase;
+                word-spacing: 15px;
+            }
+            h1{
+                position: absolute;
+                z-index:40;
+                top: 311px;
+                left:684px;
+                font-size: 100px;
+                font-family:'Nova Round', cursive;
+                text-shadow: 5px 5px  white;
+                letter-spacing: 15px;
+            }
+            h4{
+                position:absolute;
+                padding: 10px 0px;
+                padding-right: 13px;
+                width: 303px;
+                top:440px;
+                left: 975px;
+                right: 615px;
+                color:white;
+                background-color: rgba(255, 166, 0, 0.329);
+                border-radius: 40px 0px 0px 40px/ 40px 0px 0px 40px;
+                border: 2px solid orange;
+                border-right:none;
+                font-size: 30px;
+                text-align: end;
+                z-index: 30;
+                font-family: 'Roboto', sans-serif;
+            }
+            ul{
+                margin-top: 500px;
+                margin-left: 60px;
+                width:583px;
+                height: 207px;
+                background-color: whitesmoke;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                li{
+                    padding: 10px 35px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Nova+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: black;
+}
+
+body .poster {
+  margin-top: 100px;
+  margin-left: 584px;
+  width: 723px;
+  height: 960px;
+  background-color: white;
+  padding-top: 7px;
+}
+
+body .poster .inner {
+  width: 97%;
+  height: 900px;
+  margin-left: 1%;
+  background-color: #207a80;
+}
+
+body .poster .inner .inner_header {
+  width: 100%;
+  height: 20px;
+  background-color: #90bdc0;
+}
+
+body .poster .inner .circle {
+  background-color: #cae131;
+  position: absolute;
+  top: 150px;
+  left: 648px;
+  width: 430px;
+  height: 430px;
+  border-radius: 215px;
+  border: 14px solid #d5e75a;
+  z-index: 10;
+}
+
+body .poster .inner .three {
+  position: absolute;
+  top: 174px;
+  left: 880px;
+  color: white;
+  font-size: 450px;
+  font-family: 'Homemade Apple', sans-serif;
+  z-index: 20;
+}
+
+body .poster .inner h3 {
+  position: absolute;
+  font-size: 50px;
+  z-index: 30;
+  left: 840px;
+  top: 232px;
+  font-family: 'Nova Round', cursive;
+  text-transform: uppercase;
+  word-spacing: 15px;
+}
+
+body .poster .inner h1 {
+  position: absolute;
+  z-index: 40;
+  top: 311px;
+  left: 684px;
+  font-size: 100px;
+  font-family: 'Nova Round', cursive;
+  text-shadow: 5px 5px  white;
+  letter-spacing: 15px;
+}
+
+body .poster .inner h4 {
+  position: absolute;
+  padding: 10px 0px;
+  padding-right: 13px;
+  width: 303px;
+  top: 440px;
+  left: 975px;
+  right: 615px;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.329);
+  border-radius: 40px 0px 0px 40px/ 40px 0px 0px 40px;
+  border: 2px solid orange;
+  border-right: none;
+  font-size: 30px;
+  text-align: end;
+  z-index: 30;
+  font-family: 'Roboto', sans-serif;
+}
+
+body .poster .inner ul {
+  margin-top: 500px;
+  margin-left: 60px;
+  width: 583px;
+  height: 207px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+body .poster .inner ul li {
+  padding: 10px 35px;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
